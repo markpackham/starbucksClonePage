@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+:root {
+  --color-primary: hsl(160, 100%, 19%);
+  --color-secondary: hsl(346, 100%, 42%);
+  --color-extra: hsl(160, 32%, 87%);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.4;
+  color: #000;
+}
+
+a {
+  color: hsl(0, 0%, 0%);
+}
+
+ul {
+  list-style: none;
+}
+
+p {
+  margin: 5px 0;
+  line-height: 1.7;
+}
+
+img {
+  max-width: 100%;
+}
+
+section a {
+  color: hsl(0, 0%, 100%);
+}
+
+/* Navbar */
+
+/* Footer & Social */
+
+/* Grid Styles */
+
+/* Buttons */
+
+/* Backgrounds */
+
+/* Text Styling */
+
+/* Padding */
+
+/* Hamburger Menu Icon */
+
+/* Mobile Menu */
