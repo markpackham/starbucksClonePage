@@ -98,6 +98,11 @@ section a {
   margin-right: 10px;
 }
 
+.navbar-nav-right li:nth-child(2) {
+  margin: 0 5px;
+}
+
+
 /* Footer & Social */
 .footer-container {
   width: 100%;
@@ -125,7 +130,7 @@ section a {
 .divider {
   width: 95%;
   height: 1px;
-  background-color: #ccc;
+  background-color: hsl(0, 0%, 80%);
   margin: 40px auto;
 }
 
@@ -142,6 +147,30 @@ section a {
   line-height: 1.2;
   text-align: center;
   text-decoration: none;
+}
+
+.btn-dark-outline {
+  border-color: hsl(0, 0%, 0%);
+  color: hsl(0, 0%, 0%);
+}
+
+.btn-dark-outline:hover,
+.btn-light-outline:hover {
+  background-color: hsla(0, 0%, 0%, 0.06);
+}
+
+.btn-light-outline {
+  border-color: hsl(0, 0%, 100%);
+  color: hsl(0, 0%, 100%);
+}
+
+.btn-dark {
+  background-color: hsl(0, 0%, 0%);
+  color: hsl(0, 0%, 100%);
+}
+
+.btn-dark:hover {
+  background-color: hsl(0, 0%, 20%);
 }
 
 /* Backgrounds */
