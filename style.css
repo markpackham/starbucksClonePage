@@ -335,7 +335,7 @@ section a {
   position: fixed;
   top: 5.3125rem;
   right: 0;
-  background: hsl(0, 0, 100%);
+  background: hsl(0, 0%, 100%);
   color: hsl(0, 0, 0%);
   width: 90%;
   height: 100%;
