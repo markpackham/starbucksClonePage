@@ -56,6 +56,8 @@ section a {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  max-width: 90rem;
+  margin: 0 auto;
 }
 
 .navbar ul {
@@ -433,7 +435,7 @@ section a {
     margin-left: auto;
   }
 
-  .divier {
+  .divider {
     max-width: 90%;
   }
 
