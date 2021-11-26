@@ -174,10 +174,73 @@ section a {
 }
 
 /* Backgrounds */
+.bg-primary {
+  background-color: var(--color-primary);
+  color: hsl(0, 0%, 100%);
+}
+
+.bg-secondary {
+  background-color: var(--color-secondary);
+  color: hsl(0, 0%, 100%);
+}
+
+.bg-extra {
+  background-color: var(--color-extra);
+  color: hsl(0, 0%, 100%);
+}
+
+.bg-primary {
+  background-color: var(--color-primary);
+  color: hsl(0, 0%, 0%);
+}
+
+.bg-dark {
+  background-color: var(--color-dark);
+  color: hsl(0, 0%, 0%);
+}
 
 /* Text Styling */
+.text-center {
+  text-align: center;
+}
+
+.text-xl {
+  font-size: 50px;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.text-lg {
+  font-size: 40px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.text-md {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.text-sm {
+  font-size: 19px;
+  margin-bottom: 20px;
+}
 
 /* Padding */
+.py-sm {
+  padding: 10px 0;
+}
+
+.py-md {
+  padding: 20px 0;
+}
+
+.py-lg {
+  padding: 40px 0;
+}
+
 
 /* Hamburger Menu Icon */
 
