@@ -161,6 +161,17 @@ section a {
 }
 
 /* Grid Styles */
+.grid-col-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.grid-reversed :first-child {
+  order: 2;
+}
 
 /* Buttons */
 .btn {
@@ -276,12 +287,41 @@ section a {
   }
 }
 
+@media(max-width:48rem) {
+  .grid-col-2 {
+    grid-template-columns: 1fr;
+  }
+
+  .grid-reversed:first-child {
+    order: 0;
+  }
+
+  .navbar-brand img {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
+  .navbar .navbar-nav-left,
+  .navbar .navbar-nav-right {
+    display: none;
+  }
+
+  .footer {
+    text-align: center;
+  }
+}
+
 @media(min-width: 90rem) {
   .box {
     max-width: 90rem;
     margin-right: auto;
     margin-left: auto;
   }
+
+  .divier {
+    max-width: 90%;
+  }
+
 }
 
 /* Hamburger Menu Icon */
