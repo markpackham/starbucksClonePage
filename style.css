@@ -364,6 +364,24 @@ section a {
   color: var(--color-primary);
 }
 
+.mobile-menu div {
+  margin-top: 1.25rem;
+}
+
+.mobile-menu div a {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.hidden {
+  transform: translateX(100%);
+}
+
+.no-scroll {
+  overflow: hidden;
+}
+
 
 /* Media Queries */
 @media(max-width: 60rem) {
